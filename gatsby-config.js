@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: 'Noir',
+    siteUrl: 'https://noirny.com',
   },
   plugins: [
     'gatsby-plugin-ueno',
