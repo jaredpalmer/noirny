@@ -26,13 +26,13 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <HeaderLink name="Reservations &amp; Events" to="/events" />
-      {/*
+      {/* <HeaderLink name="Reservations &amp; Events" to="/events" /> */}
+
       <HeaderLink
-        name="github"
-        to="https://github.com/ueno-llc"
-        icon={<Github />}
-      /> */}
+        name=""
+        to="https://intstagram.com/noirnewyorkcity"
+        icon={<Instagram />}
+      />
     </Header>
 
     {children}
