@@ -16,7 +16,7 @@
   }
 
   &__heading {
-    @include rf(16, 18);
+    @include rf(20, 24);
     font-weight: bold;
     margin-bottom: 10px;
 
@@ -24,10 +24,10 @@
   }
 
   &__description {
-    @include rf(16, 18);
+    @include rf(20, 24);
 
-    font-weight: 300;
-    line-height: (26 / 16);
+    font-weight: 400;
+    line-height: (30 / 20);
 
     a {
       // stylelint-disable-line

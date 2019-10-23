@@ -5,17 +5,28 @@ import { Intro } from 'components/intro/Intro';
 import { Highlight } from 'components/intro/Highlight';
 import { BlockText } from 'components/block-text/BlockText';
 
+import { UenoButton } from 'components/button/UenoButton';
+
 export default () => (
   <>
     <Helmet title="Home" />
 
     <Intro>
-      Vibrantly gold in the midst of the chrome facades of West 16th street, an
+      Vibrantly gold in the midst of the chrome facades of West 16th Street, an
       ageless destination beckons: <Highlight>Noir, New York</Highlight>.
+      <div style={{ marginTop: 20 }}>
+        <UenoButton
+          white={true}
+          aria-label="Follow Noir on Instagram"
+          href="https://www.instagram.com/noirnewyorkcity"
+        >
+          Follow @noirnewyorkcity
+        </UenoButton>
+      </div>
     </Intro>
 
     <BlockText
-      heading="Opening Winter 2020"
+      heading="Opening Winter 2019"
       description={
         <>
           <div style={{ marginBottom: 20 }}>
@@ -32,10 +43,12 @@ export default () => (
             yearn for. Noir serves a unique niche; combining classic simplicity
             with the avant-guard of New York.
           </div>{' '}
-          Noir is located at <Highlight>357</Highlight>{' '}
-          <Highlight>West</Highlight> <Highlight>16th</Highlight>{' '}
-          <Highlight>Street</Highlight> (between 8th and 9th Avenues) in New
-          York, New York.
+          <div style={{ marginBottom: 100 }}>
+            Noir is located at <Highlight>357</Highlight>{' '}
+            <Highlight>West</Highlight> <Highlight>16th</Highlight>{' '}
+            <Highlight>Street</Highlight> (between 8th and 9th Avenues) in New
+            York, New York.
+          </div>
         </>
       }
     />

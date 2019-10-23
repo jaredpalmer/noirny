@@ -26,7 +26,7 @@ export default () => (
             with booking an event at Noir. For more information, please send us
             an email.
           </div>
-          <div>
+          <div style={{ marginBottom: 100 }}>
             Jennifer Bessette, Director of Events.{' '}
             <a href="mailto:jennifer@noirny.com?subject=Noir+Special+Events+Inquiry">
               jennifer@noirny.com{' '}

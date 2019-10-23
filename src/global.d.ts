@@ -3,3 +3,7 @@ declare module '*.css';
 declare module '*.svg';
 declare module '*.png';
 declare module '*.jpg';
+declare module 'gsap';
+declare module 'gsap/TimelineLite';
+declare module 'gsap/CSSPlugin';
+declare module 'classnames';
