@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Champagne";
+  src: url("/ChampagneRegular.woff2") format("woff2"), url("/ChampagneRegular.woff") format("woff"), url("/ChampagneRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("/ChampagneRegularItalic.woff2") format("woff2"), url("/ChampagneRegularItalic.woff") format("woff"), url("/ChampagneRegularItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("/ChampagneBold.woff2") format("woff2"), url("/ChampagneBold.woff") format("woff"), url("/ChampagneBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("/ChampagneBoldItalic.woff2") format("woff2"), url("/ChampagneBoldItalic.woff") format("woff"), url("/ChampagneBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}

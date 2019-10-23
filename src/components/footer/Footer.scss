@@ -1,0 +1,45 @@
+@import '~styles/config';
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 40px 0;
+
+
+
+
+    // border-bottom: 10px solid #8effbf;
+  }
+
+  &__bottom {
+    /* Gold Gradient */
+    height: 10px;
+    background: linear-gradient(180deg, #EEC880 0%, #F2D68E 11.46%, #F8F0E3 23.96%, #C48411 36.98%, #EDC686 49.48%);
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    margin-left: 30px;
+
+
+
+    transition: 200ms opacity ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+
+}
