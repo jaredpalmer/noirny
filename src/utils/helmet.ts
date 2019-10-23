@@ -3,8 +3,8 @@ const title = 'Noir';
 // tslint:disable-next-line: max-line-length
 const description = `Vibrantly gold in the midst of the chrome facades of West 16th Street, Noir is an ageless destination, lounge, and nightclub.`;
 
-const favicon = require('assets/images/favicon.png');
-const share = require('assets/images/share.png');
+import favicon from '../assets/images/favicon.png';
+import share from '../assets/images/share.png';
 
 export const helmet = {
   title,
