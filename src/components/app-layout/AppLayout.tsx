@@ -43,8 +43,11 @@ export default ({ children }: IAppLayoutProps) => (
         // { icon: <Dribbble />, to: 'https://dribbble.com/ueno' },
         // { icon: <Twitter />, to: 'https://twitter.com/uenodotco' },
         // { icon: <Github />, to: 'https://github.com/ueno-llc' },
-        { icon: <Instagram />, to: 'https://www.instagram.com/uenodotco' },
-        { icon: <Facebook />, to: 'https://www.facebook.com/uenodotco' },
+        {
+          icon: <Instagram />,
+          to: 'https://www.instagram.com/noirnewyorkcity',
+        },
+        // { icon: <Facebook />, to: 'https://www.facebook.com/uenodotco' },
         {
           icon: <Mail />,
           to: 'mailto:jennifer@noirny.com',
