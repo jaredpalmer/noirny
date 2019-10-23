@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Ueno Gatsby Starter',
+    title: 'Noir',
   },
   plugins: [
     'gatsby-plugin-ueno',
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'ueno-gatsby-starter',
+        name: 'noir',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
@@ -36,5 +36,6 @@ module.exports = {
         component: require.resolve('./src/components/app-layout/AppLayout.tsx'),
       },
     },
+    `gatsby-plugin-netlify`,
   ],
-}
+};
