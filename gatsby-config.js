@@ -7,6 +7,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-ueno',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://noirny.com`,
+        noTrailingSlash: true,
+      },
+    },
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
