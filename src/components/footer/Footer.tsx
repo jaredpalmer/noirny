@@ -18,7 +18,7 @@ export const Footer = ({ logo, social }: IFooterProps) => (
   <div className={s.footer}>
     <Container>
       <div className={s.footer__content}>
-        <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">
+        <a href="https://noirny.com" target="_blank" rel="noopener noreferrer">
           {logo}
         </a>
 
