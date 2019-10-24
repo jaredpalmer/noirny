@@ -30,7 +30,7 @@ export default ({ children }: IAppLayoutProps) => (
 
       <HeaderLink
         name=""
-        to="https://intstagram.com/noirnewyorkcity"
+        to="https://instagram.com/noirnewyorkcity"
         icon={<Instagram />}
       />
     </Header>
