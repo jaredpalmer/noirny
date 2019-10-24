@@ -26,7 +26,7 @@ export default () => (
     </Intro>
 
     <BlockText
-      heading="Opening Winter 2019"
+      heading="Opening Fall 2019"
       description={
         <>
           <div style={{ marginBottom: 20 }}>
