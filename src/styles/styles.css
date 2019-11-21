@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Champagne";
+  src: url("/fonts/ChampagneRegular.woff2") format("woff2"), url("/fonts/ChampagneRegular.woff") format("woff"), url("/fonts/ChampagneRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("/fonts/ChampagneRegularItalic.woff2") format("woff2"), url("/fonts/ChampagneRegularItalic.woff") format("woff"), url("/fonts/ChampagneRegularItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("/fonts/ChampagneBold.woff2") format("woff2"), url("/fonts/ChampagneBold.woff") format("woff"), url("/fonts/ChampagneBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("/fonts/ChampagneBoldItalic.woff2") format("woff2"), url("/fonts/ChampagneBoldItalic.woff") format("woff"), url("/fonts/ChampagneBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+
+body {
+  background-color: #111111;
+  font-family: 'Champagne';
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 33vw;
+}
+
+.section * {
+  text-align: center;
+}
+
+.face {
+  opacity: 0.06;
+  width: 90%;
+
+  display: none;
+}
+
+#logo {
+  filter: drop-shadow(0 0 10px #2B2B2B);
+  margin-top: 12vh;
+  width: 100%;
+}
+
+#flavor-text {
+  color: lightgrey;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 150%;
+  margin: 8vh 0 12vh 0;
+}
+
+#new-york {
+  color: #E4B86D;
+  /* display: inline; */
+  position: relative;
+  text-shadow: 2px 2px 1px #555555;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  font-size: 30px;
+  margin-top: 0.5vh;
+}
+
+.capital {
+  display: inline;
+  /* font-size: 30px; */
+}
+
+.less-space {
+  letter-spacing: 2px;
+}
+
+#new-york-strip {
+  background-color: #2B2B2B;
+  height: 15px;
+  /* left: calc(50% - 100px); */
+  position: absolute;
+  /* top: 0; */
+  /* width: 200px; */
+  z-index: -1;
+
+  left: calc(50% - 120px);
+  top: 5px;
+  width: 240px;
+}
+
+#fall-2019 {
+  color: lightgrey;
+  font-size: 28px;
+  letter-spacing: 8px;
+  margin-bottom: 2vh;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+#icons {
+  align-items: center;
+  display: flex;
+  width: 85px;
+  justify-content: space-between;
+
+  /* flex-direction: column; */
+  /* height: 80px; */
+}
+
+#instagram {
+  width: 35px;
+}
+
+#mail {
+  height: 25px;
+  width: 35px;
+
+  /* height: 29px; */
+  /* margin: 0 2px; */
+  /* width: 31px; */
+}
+
+#center-face {
+  /* display: none; */
+  height: 100vh;
+  /* object-fit: contain; */
+  object-fit: cover;
+  /* opacity: 0.05; */
+  /* opacity: 0.04; */
+  position: absolute;
+  /* width: 100vw; */
+  width: 60vw;
+  z-index: -1;
+
+  opacity: 0.045;
+  /* opacity: 0.12; */
+}
+
+@media only screen and (max-width: 1400px) {
+  .side-section {
+    display: none;
+  }
+
+  .center-section {
+    width: 50%;
+  }
+
+  #center-face {
+    display: block;
+    object-fit: contain;
+    /* opacity: 0.05; */
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center-section {
+    width: 60%;
+  }
+
+  #flavor-text {
+    font-size: 18px;
+  }
+
+  #new-york {
+    font-size: 24px;
+  }
+
+  .capital {
+    /* font-size: 24px; */
+  }
+
+  #new-york-strip {
+    height: 15px;
+    /* left: calc(50% - 80px); */
+    /* width: 160px; */
+
+    left: calc(50% - 100px);
+    width: 200px;
+  }
+
+  #fall-2019 {
+    font-size: 24px;
+    /* letter-spacing: 4px; */
+
+    letter-spacing: 6px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .center-section {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    margin-top: 4vh;
+  }
+
+  #flavor-text {
+    font-size: 16px;
+  }
+
+  #new-york {
+    font-size: 24px;
+    margin-top: 1vh;
+  }
+
+  #new-york-strip {
+    left: calc(50% - 100px);
+    top: 5px;
+    width: 200px;
+  }
+
+  #fall-2019 {
+    font-size: 24px;
+    /* letter-spacing: 6px; */
+    white-space: nowrap;
+  }
+
+  #instagram {
+    width: 30px;
+  }
+
+  #mail {
+    height: 20px;
+    width: 30px;
+  }
+}
