@@ -1,56 +1,61 @@
-import * as React from 'react';
-import Helmet from 'react-helmet';
+import * as React from "react";
+import Helmet from "react-helmet";
+import "../styles/styles.css";
+import { Intro } from "components/intro/Intro";
+import { Highlight } from "components/intro/Highlight";
+import { BlockText } from "components/block-text/BlockText";
 
-import { Intro } from 'components/intro/Intro';
-import { Highlight } from 'components/intro/Highlight';
-import { BlockText } from 'components/block-text/BlockText';
-
-import { UenoButton } from 'components/button/UenoButton';
+import { UenoButton } from "components/button/UenoButton";
 
 export default () => (
   <>
-    <Helmet title="Home" />
-
-    <Intro>
-      Vibrantly gold in the midst of the chrome facades of West 16th Street, an
-      ageless destination beckons: <Highlight>Noir, New York</Highlight>.
-      <div style={{ marginTop: 20 }}>
-        <UenoButton
-          white={true}
-          aria-label="Follow Noir on Instagram"
-          href="https://www.instagram.com/noirnewyorkcity"
-        >
-          Follow @noirnewyorkcity
-        </UenoButton>
+    <Helmet titleTemplate="">
+      <title>Noir New York</title>
+    </Helmet>
+    <div className="container">
+      <div className="section side-section">
+        <img className="face" src="/images/face.jpg" alt="noir-face" />
       </div>
-    </Intro>
-
-    <BlockText
-      heading="Opening Fall 2019"
-      description={
-        <>
-          <div style={{ marginBottom: 20 }}>
-            High ceilings open to the impressive ambience which includes
-            revolving chandeliers, floating lamps on mirrors, and the design
-            sophistication of art deco. The essence of Noir is not always
-            apparent at first glance; nuanced layers of detail are subtly
-            revealed with each visit through our golden doors.
-          </div>{' '}
-          <div style={{ marginBottom: 20 }}>
-            Becoming somebody at Noir is the mission we aim to deliver. Classic
-            cocktails such as a Gin Fizz or a True Manhattan, made with Carpano
-            Antica, solidifies a connection to a time of nostalgia that we all
-            yearn for. Noir serves a unique niche; combining classic simplicity
-            with the avant-guard of New York.
-          </div>{' '}
-          <div style={{ marginBottom: 100 }}>
-            Noir is located at <Highlight>357</Highlight>{' '}
-            <Highlight>West</Highlight> <Highlight>16th</Highlight>{' '}
-            <Highlight>Street</Highlight> (between 8th and 9th Avenues) in New
-            York, New York.
+      <div className="section center-section">
+        <img id="logo" src="/images/logo-clear.png" alt="noir-logo" />
+        <div id="flavor-text">
+          Vibrantly gold in the midst of the chrome facades of West 16th Street,
+          an ageless destination beckons:
+          <div id="new-york">
+            <div className="capital">N</div>OIR,{" "}
+            <div className="capital">N</div>EW{" "}
+            <div className="capital less-space">Y</div>ORK
+            <div id="new-york-strip"></div>
           </div>
-        </>
-      }
-    />
+        </div>
+        <div id="fall-2019">Opening 12.12.19</div>
+        <div style={{ marginBottom: 60 }}>
+          <UenoButton
+            white={true}
+            aria-label="Make a Reservation"
+            href="https://noirny.tripleseat.com/party_request/11667"
+            style={{ letterSpacing: ".1em" }}
+          >
+            Make a Reservation
+          </UenoButton>
+        </div>
+        <div id="icons">
+          <a href="https://www.instagram.com/noirnewyorkcity/">
+            <img
+              id="instagram"
+              src="/images/instagram-icon.png"
+              alt="instagram-icon"
+            />
+          </a>
+          <a href="mailto:info@noirny.com">
+            <img id="mail" src="/images/mail-icon.png" alt="mail-icon" />
+          </a>
+        </div>
+        <img id="center-face" src="/images/face.jpg" alt="noir-face" />
+      </div>
+      <div className="section side-section">
+        <img className="face" src="/images/face.jpg" alt="noir-face" />
+      </div>
+    </div>
   </>
 );
