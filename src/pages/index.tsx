@@ -33,7 +33,7 @@ export default () => (
           <UenoButton
             white={true}
             aria-label="Make a Reservation"
-            href="https://noirny.tripleseat.com/party_request/11667"
+            to="/events"
             style={{ letterSpacing: ".1em" }}
           >
             Make a Reservation
