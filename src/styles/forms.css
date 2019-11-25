@@ -86,3 +86,18 @@
   width: 400px;
   margin: 0 auto !important;
 }
+
+
+#tsLeadSuccessMessage {
+  max-width: 400px;
+  width: 400px;
+  margin: 0 auto !important;
+  color: white;
+}
+
+#tsLeadSuccessMessage+p+p {
+  max-width: 400px;
+  width: 400px;
+  margin: 0 auto !important;
+  color: white;
+}
