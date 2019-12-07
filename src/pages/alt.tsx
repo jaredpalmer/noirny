@@ -18,9 +18,9 @@ export default () => (
         <UenoButton
           white={true}
           aria-label="Follow Noir on Instagram"
-          href="https://www.instagram.com/noirnewyorkcity"
+          href="https://www.instagram.com/noirny"
         >
-          Follow @noirnewyorkcity
+          Follow @noirny
         </UenoButton>
       </div>
     </Intro>

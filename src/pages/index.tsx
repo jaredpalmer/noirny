@@ -40,7 +40,7 @@ export default () => (
           </UenoButton>
         </div>
         <div id="icons">
-          <a href="https://www.instagram.com/noirnewyorkcity/">
+          <a href="https://www.instagram.com/noirny/">
             <img
               id="instagram"
               src="/images/instagram-icon.png"
