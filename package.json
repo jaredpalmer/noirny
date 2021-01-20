@@ -44,7 +44,7 @@
     "gatsby-plugin-typescript": "2.0.10",
     "gatsby-plugin-ueno": "2.0.1",
     "gatsby-transformer-sharp": "2.1.15",
-    "gsap": "2.1.2",
+    "gsap": "3.6.0",
     "gsap-tools": "1.0.9",
     "lodash": "4.17.11",
     "react": "16.8.4",
